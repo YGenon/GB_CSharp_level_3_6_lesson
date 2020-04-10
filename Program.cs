@@ -25,8 +25,8 @@ namespace Matrix
             Stopwatch SW = new Stopwatch(); // Создаем объект
             SW.Start(); // Запускаем
 
-            Task task = Task.Run(() => Multiplication_matrix(matrix1._siz_matrix, matrix2._siz_matrix));
-            //Multiplication_matrix(matrix1._siz_matrix, matrix2._siz_matrix);
+            Task task = Task.Run(() => Multiplication_matrix(matrix1.new_matrix, matrix2.new_matrix));
+            //Multiplication_matrix(matrix1.new_matrix, matrix2.new_matrix);
 
             SW.Stop();            
             Console.WriteLine("Прошло : " + Convert.ToString(SW.Elapsed.Milliseconds) + " ms \r\n");

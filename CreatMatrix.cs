@@ -8,7 +8,7 @@ namespace Matrix
 {
     public class CreatMatrix
     {
-        public long[,] _siz_matrix { get; set; }
+        public long[,] new_matrix { get; set; }
 
         public CreatMatrix(int siz_matrix)
         {
@@ -27,7 +27,7 @@ namespace Matrix
                     //matrix[i, j] = random_number.Next(10) + random_number.Next(10);
                 }
                 Console.WriteLine();
-                _siz_matrix = matrix;
+                new_matrix = matrix;
             }
             //Console.ReadKey(true);
         }        
