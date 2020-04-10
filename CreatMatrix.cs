@@ -28,8 +28,7 @@ namespace Matrix
                 }
                 Console.WriteLine();
                 new_matrix = matrix;
-            }
-            //Console.ReadKey(true);
+            }            
         }        
     }
 }
